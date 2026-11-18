@@ -1,0 +1,37 @@
+{
+  "name": "@local/dsh-redstone-close",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "dsh-redstone-close contributors",
+  "description": "A Minecraft material close button: grass, redstone, lapis, diamond, netherite, iron, gold or emerald theme, original sound and a Totem-of-Undying-inspired transition.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.png"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.png",
+    "assets/*.png",
+    "sounds/*.ogg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

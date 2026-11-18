@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-redstone-close
+      name: '@local/dsh-redstone-close'
