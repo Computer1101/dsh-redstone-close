@@ -1,1 +1,6 @@
-
+{
+  "meta": {
+    "title": "Minecraft Material Close Button",
+    "description": "Close Harness with a Minecraft material button: switch between grass, redstone, lapis, diamond, netherite, iron, gold or emerald, each with its own icon, theme colour, original sound and a ~4.5 s Totem-inspired transition."
+  }
+}
